@@ -76,6 +76,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		overflow-y: scroll;
 	}
 
 	*, *:before, *:after {
@@ -84,7 +85,7 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		overflow: hidden;
+		overflow: scroll;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -154,7 +155,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-/* Wrapper */
+/* Wrapper*/
 
 	@-moz-keyframes wrapper {
 		0% {
